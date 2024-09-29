@@ -1,5 +1,4 @@
-﻿using tyuiu.cources.programming.interfaces;
-using tyuiu.cources.programming.interfaces.Sprint2;
+﻿using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.KurbanovFA.Sprint2.Task0.V10.Lib
 {
