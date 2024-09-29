@@ -37,7 +37,7 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task0.V10
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);
             
-            for (int i = 0; i < 6; i++)
+            for (int i = 0; i < res.Length; i++)
             {
                 Console.WriteLine(res[i]);
             }
