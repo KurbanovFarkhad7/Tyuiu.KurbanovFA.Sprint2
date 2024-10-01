@@ -8,8 +8,8 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task2.V12.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int x = 10;
-            int y = 8;
+            int x = 7;
+            int y = 6;
 
             bool res = ds.CheckDotInShadedArea(x, y);
             bool wait = true;
