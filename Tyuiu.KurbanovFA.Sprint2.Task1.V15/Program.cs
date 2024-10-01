@@ -17,8 +17,8 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task1.V15
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Операции сравнения                                                *");
-            Console.WriteLine("* Задание #0                                                              *");
+            Console.WriteLine("* Тема: Логические операции                                               *");
+            Console.WriteLine("* Задание #1                                                              *");
             Console.WriteLine("* Вариант #10                                                             *");
             Console.WriteLine("* Выполнил: Курбанов Фархаджон Азамжанович | РППб-24-1                    *");
             Console.WriteLine("***************************************************************************");
