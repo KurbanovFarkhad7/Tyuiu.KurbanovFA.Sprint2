@@ -10,7 +10,6 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task3.V22.Test
         {
             DataService ds = new DataService();
             int x = 10;
-
             double res = ds.Calculate(x);
             double wait = 49.537;
 
