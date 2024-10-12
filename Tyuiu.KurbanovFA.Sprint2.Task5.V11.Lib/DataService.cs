@@ -6,31 +6,32 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task5.V11.Lib
     {
         public string FindDateOfNextDay(int g, int m, int n)
         {
-            string date = "Привет, Мир";
-            switch (g, m, n )
+            string date = "";
+            switch (g % 4 != 0)
             {
-                case (2024, 10, 14):
-                    date = "Понедельник";
+                case (true):
+                    Console.WriteLine(g % 400);
+                    n += 1;
+                    if (m < 10 || n < 10)
+                    {
+                        date = "0" + n + ".0" + m + "." + g;
+                    }
+                    else
+                    {
+                        date = n + "." + m + "." + g;
+                    }
                     break;
-                case (2024, 10, 15):
-                    date = "Вторник";
+                case (false):
+                    Console.WriteLine(g % 400);
+                    if (m < 10 || n < 10)
+                    {
+                        date = "0" + n + ".0" + m + "." + g;
+                    }
+                    else
+                    {
+                        date = n + "." + m + "." + g;
+                    }
                     break;
-                case (2024, 10, 16):
-                    date = "Среда";
-                    break;
-                case (2024, 10, 17):
-                    date = "Четверг";
-                    break;
-                case (2024, 10, 18):
-                    date = "Пятница";
-                    break;
-                case (2024, 10, 19):
-                    date = "Суббота";
-                    break;
-                case (2024, 10, 20):
-                    date = "Воскресенье";
-                    break;
-                    default: return date;
             }
             return date;
         }

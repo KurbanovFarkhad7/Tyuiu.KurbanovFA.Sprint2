@@ -9,9 +9,9 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task5.V11.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            int g = 2024; int m = 10; int n = 16;
+            int g = 2023; int m = 9; int n = 8;
             string res = ds.FindDateOfNextDay(g, m, n);
-            string wait = "Среда";
+            string wait = "09.09.2023";
 
             Assert.AreEqual(wait, res);
         }
