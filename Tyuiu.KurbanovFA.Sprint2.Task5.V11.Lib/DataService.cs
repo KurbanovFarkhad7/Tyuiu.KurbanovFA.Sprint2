@@ -1,4 +1,5 @@
-﻿using tyuiu.cources.programming.interfaces.Sprint2;
+﻿using Microsoft.VisualBasic;
+using tyuiu.cources.programming.interfaces.Sprint2;
 
 namespace Tyuiu.KurbanovFA.Sprint2.Task5.V11.Lib
 {
@@ -7,10 +8,9 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task5.V11.Lib
         public string FindDateOfNextDay(int g, int m, int n)
         {
             string date = "";
-            switch (g % 4 != 0)
+            switch (g % 400 == 0 || g % 4 != 0 && g % 100 != 0)
             {
                 case (true):
-                    Console.WriteLine(g % 400);
                     n += 1;
                     if (m < 10 || n < 10)
                     {
@@ -22,7 +22,6 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task5.V11.Lib
                     }
                     break;
                 case (false):
-                    Console.WriteLine(g % 400);
                     if (m < 10 || n < 10)
                     {
                         date = "0" + n + ".0" + m + "." + g;

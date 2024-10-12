@@ -12,7 +12,7 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task4.V6
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #2                                                               *");
-            Console.WriteLine("* Тема: Вложенные операторы if-else                                       *");
+            Console.WriteLine("* Тема: Тернарный оператор                                                *");
             Console.WriteLine("* Задание #4                                                              *");
             Console.WriteLine("* Вариант #6                                                              *");
             Console.WriteLine("* Выполнил: Курбанов Фархаджон Азамжанович | РППб-24-1                    *");
