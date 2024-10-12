@@ -9,10 +9,10 @@ namespace Tyuiu.KurbanovFA.Sprint2.Task4.V6.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 3;
-            double y = 5;
+            double x = 9;
+            double y = 4;
             double res = ds.Calculate(x, y);
-            double wait = 1.889;
+            double wait = 0.007;
 
             Assert.AreEqual(wait, res);
         }
